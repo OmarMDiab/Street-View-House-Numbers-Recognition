@@ -2,6 +2,8 @@
 This file is used for:- 
 1) Internal program Computations and logic. 
 2) Filters we tried in the project.
+3) For our dataset we didn't have a "100%" closed region so we couldn't use hough Transform 
+thats why we used the "Alternating Edge Concept"
 """
 import numpy as np
 import cv2
