@@ -25,6 +25,11 @@ The core of this project lies in the application of computer vision methodologie
 ### Alternating Edge Detection
 
 The `detect_alternating_pixels` function implements the alternating edge detection logic. It takes the input image, height, and width as parameters and returns the number of alternations detected in different regions of the image.
+<p float="left">
+   <img src="https://github.com/OmarMDiab/Street-View-House-Numbers-Recognition/raw/main/Detection%20Technique/no1.png" width="400"  />
+  <img src="https://github.com/OmarMDiab/Street-View-House-Numbers-Recognition/raw/main/Detection%20Technique/no6.png" width="400" height="440" />  
+</p>
+
 
 ### Filters
 
@@ -34,7 +39,6 @@ The `Filters.py` module contains custom filter functions used in the project, in
 - **Sobel Edge Detection**: Detects edges in the image using the Sobel operator.
 - **HoughCircles**: Used for counting circles in an image.
 Among these, the **high_pass_filter** emerged as the most effective filter. Its ability to highlight high-frequency components in the image significantly contributed to the accuracy of our recognition system.
-
 ### Main Functionality
 
 - It reads the image using OpenCV's cv2.imread().
