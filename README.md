@@ -9,6 +9,7 @@ SVHN is a real-world image dataset obtained from house numbers in Google Street 
 - **Classes:** There are 10 classes, one for each digit from 0 to 9.Note that digit '0' has label 10.
 - **Data Split:** The dataset consists of 73,257 digits for training, 26,032 digits for testing, and an additional 531,131 samples that can be used as extra training data.
 - **Formats:** SVHN comes in two formats: original images with character-level bounding boxes and MNIST-like 32-by-32 images centered around a single character.
+
 However, we used the **MNIST-like 32-by-32 images** format
 
 You can download the dataset from [Stanford University](http://ufldl.stanford.edu/housenumbers/)
