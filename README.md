@@ -60,7 +60,7 @@ The obs() function is a utility function used to visualize the grayscale image w
 
 ## Constraints
 
-- This project **was restricted** from utilizing AI or machine learning techniques.
+- This project **was restricted** from using AI or machine learning techniques.
 - **Only computer vision** methods are used for low-level number detection using detected edges.
 
 
