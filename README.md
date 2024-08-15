@@ -58,17 +58,5 @@ It considers various combinations of alternating pixels in horizontal, vertical,
 
 The obs() function is a utility function used to visualize the grayscale image with its corresponding class label.
 
-
-## Constraints
-
-- This project **was restricted** from using AI or machine learning techniques.
-- **Only computer vision** methods are used for low-level number detection using detected edges.
-
-
-
-
-
-
-
-
-
+## Conclusion
+This project applied classical computer vision techniques, including the **Alternating Edge Concept** and custom filters, to successfully recognize digits in the SVHN dataset. It demonstrates the effectiveness of traditional image processing methods for digit recognition without relying on *AI or machine learning.*
